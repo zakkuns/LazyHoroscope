@@ -1,6 +1,6 @@
 //Authors:
 #include<iostream>
-#include<stream>
+#include<string>
 
 using namespace std;
 
