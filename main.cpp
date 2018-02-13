@@ -10,7 +10,7 @@ int main()
 
         string firstname;
         string lastname;
-
+        int lucky;
 
 
         //get user input
@@ -22,10 +22,11 @@ int main()
 
 
         //tell fortune
-
+        
+        lucky = firstname.length();
 
         cout << "Welcome, " << firstname[0] << "." << lastname[0] << "," << " here is your fortune...\n";    
-
+        cout << "Your lucky number is " << lucky << "." << endl;
 
         return 0;
 }
